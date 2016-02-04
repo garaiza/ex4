@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Fascinate|Sonsie+One|Sniglet:800);
+* {
+    margin: 0px;
+    padding: 0px
+}
+body {
+    background-color: #0096c6;
+    opacity: 0;
+}
+header h1 {
+    font-family: 'Fascinate', cursive;
+    font-size: 80px;
+    color: #ffffff;
+    opacity: 0;
+    position: relative;
+}
+header {
+    width: 1500px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    clear: both;
+}
+#stuffInPockets:not(#textBubble) {
+    width: 900px;
+    height: 600px;
+    background-color: #010126;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 5px;
+    float: left;
+    position: relative;
+    visibility: visible;
+}
+#me {
+    width: 342px;
+    height: 570px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-left: 50px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    clear: left;
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    bottom: 0px;
+}
+footer a {
+    font-family: 'Sonsie One';
+    font-size: 12px;
+    color: #89d7f0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    transition: 2s;
+}
+#me img {
+    width: 360px;
+    height: 600px;
+    opacity: 1;
+}
+
+/*I tried resizing in photoshop, but the image quality was really bad
+and you could see the pixelation. you can see in copic1 I did save for web though */
+
+#stuffInPockets section img {
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin: 15px;
+    visibility: visible;
+}
+section #wallet img {
+    width: 570px;
+    height: 270px;
+    visibility: visible;
+}
+#stuffInPockets section#textBubble {
+    padding: 10px;
+}
+#textBubble {
+    width: 890px;
+    height: 590px;
+    background-color: #0096c6;
+    background-image: url(images/speechBubble.svg);
+    background-repeat: no-repeat;
+    padding: 50px;
+    top: 0px;
+    left: 0px;
+    float: left;
+    position: absolute;
+    margin: 0px;
+    visibility: hidden;
+    opacity:0;
+}
+section#textBubble nav#close {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 50px;
+    height: 55px;
+    border: 1px #575656 solid;
+    text-align: center;
+    font-family: 'Sniglet';
+    font-size: 40px;
+    color: #500000;
+    background-color: rgba(41, 41, 41, 0.03);
+    }
+section#textBubble nav#close:hover {
+    background-color: #292929;
+    color: white;
+}
+section#textBubble div {
+    width: 500px;
+    height: 480px;
+    float: right;
+    margin-left:250px;
+    position: absolute;
+    padding: 5px;
+    align-content: center;
+}
+
+section#textBubble div h2 {
+    font-family: 'Sniglet';
+    font-size: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-top: 50px;
+    float: right;
+    text-align: left;
+    width:380px;
+}
+
+section#textBubble div p {
+    float: right;
+    padding: 5px;
+    font-family: 'Arial';
+    font-size: 30px;
+    color: white;
+    width: 350px;
+    height: 350px;
+    clear: left;
+}
+
+
